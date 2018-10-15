@@ -48,6 +48,7 @@ def count_elements(array)
       element[:count] += 1 
     else
       final_array << element
+    end
   end
   final_array
 end
