@@ -20,4 +20,5 @@ def contain_a (array)
       end
     end
   end
+  return final_array
 end
