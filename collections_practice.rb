@@ -49,6 +49,7 @@ def count_elements(array)
     else
       final_array << element
   end
+  final_array
 end
   
   
