@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def begins_with_r (array)
   array.each do |element|
@@ -13,6 +13,7 @@ def contain_a (array)
   final_array = []
   array.each do |element|
     letter_array = element.split("")
+    binding.pry
     letter_array.each do |letter|
       if letter == "a"
         final_array << element
