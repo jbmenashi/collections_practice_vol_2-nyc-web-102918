@@ -30,7 +30,15 @@ def first_wa (array)
   end
 end
       
-      
+def remove_non_strings (array)
+  final_array = []
+  array.each do |element|
+    if element == element.to_s
+      final_array << element
+    end
+  end
+  final_array
+end
       
       
       
