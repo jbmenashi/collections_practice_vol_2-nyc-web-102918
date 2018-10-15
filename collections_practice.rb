@@ -43,12 +43,11 @@ end
 def count_elements(array)
   final_array = []
   array.each do |element|
-    element[:count] = 0
     if final_array.include?(element)
       element[:count] += 1 
     else
       final_array << element
-      element[:count] += 1
+      element[:count] = 1
     end
   end
   final_array
