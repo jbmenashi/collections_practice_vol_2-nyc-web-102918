@@ -40,7 +40,18 @@ def remove_non_strings (array)
   final_array
 end
       
-      
+def count_elements(array)
+  count = 0 
+  counted_array = []
+  array.each do |element|
+    if counted_array.include?(element)
+      count += 1 
+    else
+      counted_array << element
+    end
+  end
+  count 
+end
       
       
       
