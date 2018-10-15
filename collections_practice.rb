@@ -8,5 +8,13 @@ def begins_with_r (array)
 end
 
 def contain_a (array)
+  final_array = []
   array.each do |element|
-    
+    letter_array = element.split("")
+    letter_array.each do |letter|
+      if letter == "a"
+        final_array << element
+      end
+    end
+  end
+end
