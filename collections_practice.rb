@@ -21,3 +21,18 @@ def contain_a (array)
   end
   return final_array
 end
+
+def first_wa (array)
+  array.each do |element|
+    if element[0] == "w" && element[1] == "a"
+      return element
+    end
+  end
+end
+      
+      
+      
+      
+      
+      
+      
