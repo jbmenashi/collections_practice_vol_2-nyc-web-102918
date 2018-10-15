@@ -6,3 +6,7 @@ def begins_with_r (array)
   end
   return true
 end
+
+def contain_a (array)
+  array.each do |element|
+    
