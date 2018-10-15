@@ -50,7 +50,7 @@ def count_elements(array)
       counted_array << element
     end
   end
-  count 
+  counted_array
 end
       
       
